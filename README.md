@@ -42,11 +42,11 @@ Built by **Nous Research**, Hermes brings the power of an autonomous AI agent to
 Download Termux from [F-Droid](https://f-droid.org/packages/com.termux/) (recommended) or [Google Play](https://play.google.com/store/apps/details?id=com.termux).
 
 ### 2. Install Hermes Mobile Client APK
-- Download `app-release.apk` from [Releases](https://github.com/PARHAM403/Hermes-Mobile-Client/releases)
+- Download `hermes-1.3.3-universal.apk` from [Releases](https://github.com/PARHAM403/Hermes-Mobile-Client/releases)
 - Transfer to your phone
 - Install using your file manager or:
   ```bash
-  adb install app-release.apk
+  adb install hermes-1.3.3-universal.apk
   ```
 
 ### 3. Launch and Set Up
