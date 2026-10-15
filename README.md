@@ -36,10 +36,6 @@ Built by **Nous Research**, Hermes brings the power of an autonomous AI agent to
 - **Storage:** 5GB+ free space
 - **OS:** Android 10+
 
-### Tested On
-- POCO X6 Pro (2311DRK48G)
-- Other ARM64 Android devices
-
 ## Installation
 
 ### 1. Install Termux
@@ -78,27 +74,8 @@ Hermes Mobile Client (Flutter/React Native)
    Hermes Agent Gateway
    (Local on Ubuntu)
          ↓
-      9Router
-   (Proxy/API)
-         ↓
    Development Tools
    (Python, Node, Git, etc.)
-```
-
-## Usage Examples
-
-```bash
-# Inside Hermes chat interface
-
-/help              # Show available commands
-/gateway           # Check gateway status
-/models            # List available AI models
-/set-home          # Set current chat as home
-
-# Run code
-python my_script.py
-npm install
-git clone <repo>
 ```
 
 ## Configuration
@@ -109,13 +86,6 @@ Change AI model from the Models tab:
 - GPT-4
 - Gemini
 - Local LLMs (Ollama)
-
-### Gateway Settings
-Available from Help → Settings:
-- API Server address
-- Port configuration (default: 8642)
-- Approval modes (manual/smart)
-
 ## Troubleshooting
 
 ### Bridge Connection Issues
@@ -130,37 +100,6 @@ Available from Help → Settings:
 ### Storage Full
 - Check Ubuntu size: `df -h`
 - Clean package cache: `apt clean`
-
-## File Structure
-
-```
-Hermes-Mobile-Client/
-├── README.md               # This file
-├── LICENSE                 # License information
-├── app-release.apk         # Installable APK
-└── docs/                   # Documentation
-    ├── SETUP.md           # Detailed setup guide
-    ├── COMMANDS.md        # Available commands
-    └── TROUBLESHOOTING.md # Common issues
-```
-
-## Contributing
-
-This is the official mobile client for Hermes Agent. For feature requests or bug reports:
-
-1. Check existing [Issues](https://github.com/PARHAM403/Hermes-Mobile-Client/issues)
-2. Create a new Issue with details
-3. Submit Pull Requests for improvements
-
-## License
-
-Hermes Agent is built by **Nous Research**. See LICENSE file for terms.
-
-## Community
-
-- 💬 **Telegram:** Join our community
-- 🐛 **Issues:** Report bugs
-- 💡 **Discussions:** Share ideas
 
 ## Resources
 
