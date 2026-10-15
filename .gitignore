@@ -1,0 +1,32 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+
+# Build
+*.apk
+*.aab
+build/
+dist/
+
+# Dependencies
+node_modules/
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Temp
+temp/
+tmp/
+*.tmp
