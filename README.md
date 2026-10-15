@@ -107,10 +107,3 @@ Change AI model from the Models tab:
 - [Termux Wiki](https://wiki.termux.com/)
 - [proot-distro](https://github.com/termux/proot-distro)
 
----
-
-**Made by:** Nous Research
-**Maintained by:** Community
-**Last Updated:** October 2026
-
-For support and updates, visit: [Hermes Agent](https://hermes-agent.nousresearch.com/)
