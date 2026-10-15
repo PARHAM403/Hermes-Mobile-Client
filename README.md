@@ -1,109 +1,91 @@
 # Hermes Mobile Client
 
-**Mobile client for Hermes Agent** — Run a full AI coding agent directly on your phone.
+**Run and control Hermes Agent from your Android device.**
 
-Built by **Nous Research**, Hermes brings the power of an autonomous AI agent to your mobile device. Install a complete Ubuntu environment in Termux and control your agent right from your phone.
+Hermes Mobile Client is an Android application designed to bring an AI-powered coding agent to your phone, with a mobile-first interface and integration with the Hermes Agent Gateway.
 
-## Features
+[**⬇️ Download Latest APK**](https://github.com/PARHAM403/Hermes-Mobile-Client/releases/latest/download/Hermes-1.3.3-universal.apk) · [View All Releases](https://github.com/PARHAM403/Hermes-Mobile-Client/releases)
 
-✨ **Full Ubuntu Environment** on Android via Termux
-- Complete Linux environment with all development tools
-- No desktop needed — everything runs on your phone
+---
 
-🤖 **Hermes Agent Gateway**
-- Full-featured AI coding agent
-- Real-time command execution
-- Code generation and debugging
+## ✨ Features
 
-🔄 **9Router Integration**
-- Built-in proxy and routing capabilities
-- Direct API access from the app
+- **Android Support** — Designed for compatible ARM64 Android devices.
+- **Hermes Agent Integration** — Connect to the Hermes Agent Gateway.
+- **Mobile Interface** — Interact with your coding agent through a mobile-friendly interface.
+- **Terminal and Development Workflow** — Designed to support coding and development tasks on your phone.
+- **Ubuntu Environment** — Integration with a Linux environment through Termux.
+- **9Router Integration** — Intended to support API routing and AI model connectivity.
+- **Model Configuration** — Configure supported AI providers and models.
 
-📱 **Mobile-First Interface**
-- Beautiful Flutter + React Native UI
-- Real-time output and error handling
-- Chat-based interaction
+*Feature availability depends on the installed version and the required configuration.*
 
-🚀 **Local Execution**
-- Everything runs on your device
-- Privacy-first design
-- No cloud dependencies
+## 📱 System Requirements
 
-## System Requirements
+| Requirement | Minimum |
+|---|---|
+| Operating system | Android 10+ |
+| Architecture | ARM64 |
+| RAM | 4 GB (8 GB recommended) |
+| Free storage | 5 GB or more |
 
-- **Device:** Android phone with ARM64 processor
-- **RAM:** Minimum 4GB (8GB recommended)
-- **Storage:** 5GB+ free space
-- **OS:** Android 10+
+Additional storage and internet access may be required to install the Linux environment and download dependencies.
 
-## Installation
+## 🚀 Installation
 
-### 1. Install Termux
-Download Termux from [F-Droid](https://f-droid.org/packages/com.termux/) (recommended) or [Google Play](https://play.google.com/store/apps/details?id=com.termux).
+### 1. Download the APK
 
-### 2. Install Hermes Mobile Client APK
-- Download `hermes-1.3.3-universal.apk` from [Releases](https://github.com/PARHAM403/Hermes-Mobile-Client/releases)
-- Transfer to your phone
-- Install using your file manager or:
-  ```bash
-  adb install hermes-1.3.3-universal.apk
-  ```
+Download the latest release:
 
-### 3. Launch and Set Up
-Open Hermes Mobile Client from your app drawer and follow the in-app setup guide.
+**[Download Hermes Mobile Client APK](https://github.com/PARHAM403/Hermes-Mobile-Client/releases/latest/download/Hermes-1.3.3-universal.apk)**
 
-## Quick Start
+Alternatively, visit the [Releases page](https://github.com/PARHAM403/Hermes-Mobile-Client/releases) to choose a specific version.
 
-1. **Install Ubuntu Environment** (one-time, ~5min)
-   - Tap "Install" in the app
-   - Wait for proot-distro to download Ubuntu
+### 2. Install the application
 
-2. **Set Up Bridge**
-   - Generate or provide a secure key (16+ chars)
-   - Connect from the Control tab
+1. Open the downloaded APK on your Android device.
+2. Allow installation from the source if Android requests permission.
+3. Complete the installation and launch Hermes Mobile Client.
 
-3. **Run Commands**
-   - Use the chat interface to interact with your agent
-   - Commands execute in real-time with visible output
+### 3. Complete the setup
 
-## Architecture
+Follow the setup instructions displayed in the application. If your configuration requires Termux, a Linux environment, an AI provider, or a Gateway connection, complete the corresponding setup steps.
 
-```
-Hermes Mobile Client (Flutter/React Native)
-         ↓
-   Hermes Agent Gateway
-   (Local on Ubuntu)
-         ↓
-   Development Tools
-   (Python, Node, Git, etc.)
-```
+## 🧠 AI Model Configuration
 
-## Configuration
+Model availability depends on the configured provider and API endpoint.
 
-### Model Selection
-Change AI model from the Models tab:
-- Claude Sonnet
-- GPT-4
-- Gemini
-- Local LLMs (Ollama)
-## Troubleshooting
+For supported configurations, you may be able to connect an AI provider or compatible API service, including a service such as 9Router.
 
-### Bridge Connection Issues
-- Ensure port 8642 is accessible
-- Check Ubuntu environment installation status
-- Restart gateway from Control tab
+Check your provider's documentation for API keys, supported models, endpoint settings, and usage limits.
 
-### Performance
-- Close other apps to free RAM
-- For heavy tasks, consider external power
+**Security note:** Never share your API keys, access tokens, or other credentials publicly.
 
-### Storage Full
-- Check Ubuntu size: `df -h`
-- Clean package cache: `apt clean`
+## 🛠️ Troubleshooting
 
-## Resources
+**The APK won't install**
+- Verify that your device runs Android 10 or later.
+- Check that your device uses a compatible ARM64 architecture.
+- Make sure you have sufficient free storage.
 
-- [Hermes Agent Documentation](https://hermes-agent.nousresearch.com/)
-- [Termux Wiki](https://wiki.termux.com/)
-- [proot-distro](https://github.com/termux/proot-distro)
+**The application cannot connect to the Gateway**
+- Verify that the required environment and Gateway are running.
+- Check the configured connection address and port.
+- Confirm that your device can reach the Gateway.
 
+**Setup fails or gets stuck**
+- Check your internet connection.
+- Make sure you have enough storage.
+- Review the relevant setup logs and try again.
+
+
+## 🐛 Bug Reports and Feedback
+
+Found a bug or have a suggestion?
+
+[Open an issue on GitHub](https://github.com/PARHAM403/Hermes-Mobile-Client/issues).
+
+---
+
+**Hermes Mobile Client**  
+An independent mobile client project for Hermes Agent.
