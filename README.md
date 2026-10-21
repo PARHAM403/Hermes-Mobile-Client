@@ -27,7 +27,7 @@ Hermes Mobile Client is an Android application designed to bring an AI-powered c
 | Operating system | Android 10+ |
 | Architecture | ARM64 |
 | RAM | 4 GB (8 GB recommended) |
-| Free storage | 5 GB or more |
+| Free storage | 10 GB or more |
 
 Additional storage and internet access may be required to install the Linux environment and download dependencies.
 
