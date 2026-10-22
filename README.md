@@ -1,3 +1,13 @@
+
+<p align="center">
+  <img
+    src="assets/hermes.png"
+    alt="Hermes Mobile Client"
+    width="100%"
+  />
+</p>
+
+
 # Hermes Mobile Client
 
 **Run and control Hermes Agent from your Android device.**
